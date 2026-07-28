@@ -2,11 +2,11 @@ type Status = "loading" | "success" | "error";
 
 function logStatus(status: Status): void {
   if (status === "loading") {
-    console.log("Завантаження...");
+    console.log("Loading...");
   } else if (status === "success") {
-    console.log("Успіх!");
+    console.log("Success!");
   } else if (status === "error") {
-    console.log("Щось пішло не так");
+    console.log("Something went wrong");
   }
 }
 
